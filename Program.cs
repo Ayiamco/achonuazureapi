@@ -7,16 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen( swaggerOptions =>
+builder.Services.AddSwaggerGen(swaggerOptions =>
 {
     swaggerOptions.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title= "Chisom the burner of pot",
-        Version = "v1", 
+        Title = "Joseph Achonu azure",
+        Version = "v1",
         Description = "Chisom the burner of pot",
     });
 
-   
+
 
 });
 
